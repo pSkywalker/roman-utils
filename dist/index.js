@@ -33,5 +33,8 @@ class RomanUtils {
         }
         return r;
     }
+    clearHistory() {
+        this.record = [];
+    }
 }
 exports.RomanUtils = RomanUtils;
